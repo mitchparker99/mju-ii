@@ -1,0 +1,26 @@
+{
+  "name": "astro-multiverse",
+  "version": "23.9.9",
+  "private": true,
+  "license": "CCA-3.0",
+  "author": {
+    "name": "AREA44",
+    "url": "https://github.com/AREA44/astro-multiverse"
+  },
+  "scripts": {
+    "build": "astro build",
+    "dev": "astro dev",
+    "format": "prettier -w . --cache",
+    "preview": "astro preview",
+    "start": "astro dev"
+  },
+  "dependencies": {
+    "astro": "^4.11.5",
+    "glob": "^11.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "prettier-plugin-astro": "^0.14.0"
+  },
+  "packageManager": "pnpm@9.5.0"
+}
