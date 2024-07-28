@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://photograpy-portfolio.netlify.app/sitemap-index.xml
