@@ -11,7 +11,7 @@ async function ImageFetcher(pattern: string) {
 
   const imageFiles = await Promise.all(imagePromises)
 
-  imageFiles.sort((a, b) => a.src.localeCompare(b.src))
+  imageFiles.sort((b, a) => a.src.localeCompare(b.src))
 
   return imageFiles
 }
@@ -33,7 +33,7 @@ const { title, description } = Astro.props
             alt="Astro Multiverse"
           />
         </a>
-        <div class="content"></div>
+        <div class="content" />
         <p>{description}</p>
       </article>
     ))

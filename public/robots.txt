@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://photograpy-portfolio.netlify.app/sitemap-index.xml
+Sitemap: https://astro-multiverse.netlify.app/sitemap-index.xml
