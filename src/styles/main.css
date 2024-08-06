@@ -1688,7 +1688,7 @@ body {
   position: fixed;
   user-select: none;
   width: 100%;
-  z-index: 10002;
+  z-index: 100020;
 }
 
 body.is-preload #header {
