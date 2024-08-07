@@ -8,11 +8,11 @@
     "url": "https://github.com/mitchparker99/photography-portfolio"
   },
   "scripts": {
-    "build": "npm build",
-    "dev": "npm dev",
+    "build": "astro build",
+    "dev": "astro dev",
     "format": "prettier -w . --cache",
-    "preview": "npm preview",
-    "start": "npm start"
+    "preview": "astro preview",
+    "start": "astro start"
   },
   "dependencies": {
     "@astrojs/netlify": "^5.5.0",
