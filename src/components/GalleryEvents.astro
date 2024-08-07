@@ -17,7 +17,7 @@ async function ImageFetcher(pattern: string) {
 }
 
 const imageFiles = await ImageFetcher(
-  'public/images/events/*.{jpg,,jpeg,png,webp}',
+  'public/images/events/*.{jpg,JPG,jpeg,png,webp}',
 )
 
 const { title, description } = Astro.props
