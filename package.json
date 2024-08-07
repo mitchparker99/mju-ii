@@ -8,11 +8,11 @@
     "url": "https://github.com/AREA44/astro-multiverse"
   },
   "scripts": {
-    "build": "astro build",
-    "dev": "astro dev",
+    "build": "pnpm run build",
+    "dev": "pnpm run dev",
     "format": "prettier -w . --cache",
     "preview": "astro preview",
-    "start": "astro dev"
+    "start": "pnpm run dev"
   },
   "dependencies": {
     "astro": "^4.12.2",
