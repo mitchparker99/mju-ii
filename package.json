@@ -1,18 +1,18 @@
 {
-  "name": "astro-multiverse",
+  "name": "photography-portfolio",
   "version": "23.9.9",
-  "private": true,
+  "private": false,
   "license": "CCA-3.0",
   "author": {
-    "name": "AREA44",
-    "url": "https://github.com/AREA44/astro-multiverse"
+    "name": "Mitch",
+    "url": "https://github.com/mitchparker99/photography-portfolio"
   },
   "scripts": {
-    "build": "astro build",
-    "dev": "astro dev",
+    "build": "npm build",
+    "dev": "npm dev",
     "format": "prettier -w . --cache",
-    "preview": "astro preview",
-    "start": "astro start"
+    "preview": "npm preview",
+    "start": "npm start"
   },
   "dependencies": {
     "@astrojs/netlify": "^5.5.0",
