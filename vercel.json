@@ -1,5 +1,5 @@
 {
-  "buildCommand": "pnpm run build",
+  "buildCommand": "astro build",
   "outputDirectory": "dist",
   "installCommand": "pnpm install",
   "github": {
