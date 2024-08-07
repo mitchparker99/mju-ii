@@ -16,7 +16,9 @@ async function ImageFetcher(pattern: string) {
   return imageFiles
 }
 
-const imageFiles = await ImageFetcher('public/images/events/*.{jpg,,jpeg,png,webp}')
+const imageFiles = await ImageFetcher(
+  'public/images/events/*.{jpg,,jpeg,png,webp}',
+)
 
 const { title, description } = Astro.props
 ---
@@ -26,12 +28,7 @@ const { title, description } = Astro.props
     imageFiles.map((img) => (
       <article class="thumb">
         <a class="image" href={img.src}>
-          <Image
-            src={img.src}
-            width="1200"
-            height="750"
-            alt="Astro 4"
-          />
+          <Image src={img.src} width="1200" height="750" alt="Astro 4" />
         </a>
         <div class="content" />
         <p>{description}</p>
