@@ -28,7 +28,12 @@ const { title, description } = Astro.props
     imageFiles.map((img) => (
       <article class="thumb">
         <a class="image" href={img.src}>
-          <Image src={img.src} width="1200" height="750" alt="Astro 4" />
+          <Image
+            src={img.src}
+            width="1200"
+            height="750"
+            alt="Event film photograph by Mitchell Parker, shot on an Olympus mju-II [Deluxe]"
+          />
         </a>
         <div class="content" />
         <p>{description}</p>

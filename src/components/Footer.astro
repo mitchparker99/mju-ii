@@ -1,5 +1,6 @@
 ---
 const { title, description } = Astro.props
+const year = new Date().getFullYear()
 ---
 
 <footer id="footer" class="panel">
@@ -8,115 +9,68 @@ const { title, description } = Astro.props
       <section>
         <h2>{title}</h2>
         <p>{description}</p>
+        <p>Film photographs by Mitchell Parker. Japan / Australia.</p>
       </section>
       <section>
         <h2>Follow me on ...</h2>
         <ul class="icons">
           <li>
             <a
-              href="http://x.com/mitchparker99"
-              class="icon brands fa-twitter"
-              aria-label="Social"
-            >
-              <span class="label">twitter</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="http://facebook.com/mitchellparker99"
-              class="icon brands fa-facebook-f"
-              aria-label="Social"
-            >
-              <span class="label">Facebook</span>
-            </a>
-          </li>
-          <li>
-            <a
               href="https://www.instagram.com/mitch.aiff/"
               class="icon brands fa-instagram"
-              aria-label="Social"
+              aria-label="Instagram"
             >
               <span class="label">Instagram</span>
             </a>
           </li>
           <li>
             <a
-              href="https://github.com"
-              class="icon brands fa-github"
-              aria-label="Social"
+              href="https://x.com/mitchparker99"
+              class="icon brands fa-twitter"
+              aria-label="X"
             >
-              <span class="label">GitHub</span>
+              <span class="label">X</span>
             </a>
           </li>
-          <br />
           <li>
             <a
-              href="https://medium.com/@mitchparker99"
-              class="icon brands fa-medium"
-              aria-label="Social"
+              href="https://github.com/mitchparker99"
+              class="icon brands fa-github"
+              aria-label="GitHub"
             >
-              <span class="label">Medium</span>
+              <span class="label">GitHub</span>
             </a>
           </li>
           <li>
             <a
               href="https://www.linkedin.com/in/mitchparker99/"
               class="icon brands fa-linkedin-in"
-              aria-label="Social"
+              aria-label="LinkedIn"
             >
               <span class="label">LinkedIn</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/mitchparker99/"
-              class="icon brands fa-soundcloud"
-              aria-label="Social"
-            >
-              <span class="label">Soundcloud</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/mitchparker99/"
-              class="icon brands fa-stack-overflow"
-              aria-label="Social"
-            >
-              <span class="label">StackOverflow</span>
             </a>
           </li>
         </ul>
       </section>
       <p class="copyright">
-        &copy; Designed by: <a href="https://mybento-portfolio.netlify.app"
-          >Mitch</a
-        >.<br />
+        &copy; {year} Mitchell Parker. All photographs are my own.<br />
       </p>
     </div>
     <div>
       <section>
-        <h2>Lets work together!</h2>
-        <form method="post" action="#">
-          <div class="fields">
-            <div class="field half">
-              <input type="text" name="name" id="name" placeholder="Name" />
-            </div>
-            <div class="field half">
-              <input type="text" name="email" id="email" placeholder="Email" />
-            </div>
-            <div class="field">
-              <textarea
-                name="message"
-                id="message"
-                rows="4"
-                placeholder="Message"></textarea>
-            </div>
-          </div>
-          <ul class="actions">
-            <li><input type="submit" value="Send" class="primary" /></li>
-            <li><input type="reset" value="Reset" /></li>
-          </ul>
-        </form>
+        <h2>Get in touch</h2>
+        <p>
+          Questions about a photograph, or just want to say hello? Send me an
+          email.
+        </p>
+        <ul class="actions">
+          <li>
+            <a
+              href="mailto:mitchelljamesparker99@gmail.com"
+              class="button primary">Email me</a
+            >
+          </li>
+        </ul>
       </section>
     </div>
   </div>

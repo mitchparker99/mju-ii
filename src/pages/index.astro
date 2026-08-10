@@ -5,8 +5,14 @@ import Footer from '@/components/Footer.astro'
 import Gallery from '@/components/Gallery.astro'
 import ExternalScripts from '@/components/ExternalScripts.astro'
 
-let title = 'GALLERY'
-let description = 'SHOT WITH OLYMPUS MJU-II [DELUXE]'
+// Visible on the page
+let heading = 'GALLERY'
+let caption = 'SHOT WITH OLYMPUS MJU-II [DELUXE]'
+
+// Document metadata
+let title = 'Mitchell Parker — Film Photography on an Olympus mju-II'
+let description =
+  'Film photographs by Mitchell Parker, shot on an Olympus mju-II [Deluxe].'
 ---
 
 <!doctype html>
@@ -14,14 +20,14 @@ let description = 'SHOT WITH OLYMPUS MJU-II [DELUXE]'
   <BaseHead
     title={title}
     description={description}
-    author={'M.Parker'}
-    og={'og-image.jpg'}
+    author={'Mitchell Parker'}
+    og={'/og-image.jpg'}
   />
 
   <body class="is-preload">
-    <Header title={title} />
-    <Footer title={title} description={description} />
-    <Gallery title={title} description={description} />
+    <Header title={heading} />
+    <Footer title={heading} description={caption} />
+    <Gallery title={heading} description={caption} />
     <ExternalScripts />
   </body>
 </html>

@@ -1,11 +1,12 @@
 {
-  "name": "astro-multiverse",
-  "version": "23.9.9",
+  "name": "mju-ii",
+  "version": "1.0.0",
   "private": true,
-  "license": "CCA-3.0",
+  "description": "Film photography gallery — shot on an Olympus mju-II [Deluxe].",
+  "license": "SEE LICENSE IN LICENSE",
   "author": {
-    "name": "AREA44",
-    "url": "https://github.com/AREA44/astro-multiverse"
+    "name": "Mitchell Parker",
+    "url": "https://github.com/mitchparker99"
   },
   "scripts": {
     "build": "astro build",
